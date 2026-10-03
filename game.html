@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game | ChingChieh Wang</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-wrap">
+        <span class="brand">ChingChieh Wang</span>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="game.html" class="current-page" aria-current="page">Game</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="section-header">
+          <h1 id="game-title">Mini crossword</h1>
+          <p class="lead">Type one letter in each open square. Use the clues to fill the grid, or open the solution to check your answers.</p>
+        </div>
+
+        <div class="game-shell">
+          <div class="game-panel">
+            <div class="game-board">
+              <div class="cell open">
+                <span class="number">1</span>
+                <label class="visually-hidden" for="r1c1">Row 1, column 1, 1 Across and 1 Down</label>
+                <input id="r1c1" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r1c2">Row 1, column 2, 1 Across</label>
+                <input id="r1c2" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <span class="number">2</span>
+                <label class="visually-hidden" for="r1c3">Row 1, column 3, 1 Across and 2 Down</label>
+                <input id="r1c3" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r1c4">Row 1, column 4, 1 Across</label>
+                <input id="r1c4" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <span class="number">3</span>
+                <label class="visually-hidden" for="r1c5">Row 1, column 5, 1 Across and 3 Down</label>
+                <input id="r1c5" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r2c1">Row 2, column 1, 1 Down</label>
+                <input id="r2c1" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell blocked" aria-hidden="true"></div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r2c3">Row 2, column 3, 2 Down</label>
+                <input id="r2c3" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell blocked" aria-hidden="true"></div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r2c5">Row 2, column 5, 3 Down</label>
+                <input id="r2c5" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <span class="number">4</span>
+                <label class="visually-hidden" for="r3c1">Row 3, column 1, 4 Across and 1 Down</label>
+                <input id="r3c1" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r3c2">Row 3, column 2, 4 Across</label>
+                <input id="r3c2" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r3c3">Row 3, column 3, 4 Across and 2 Down</label>
+                <input id="r3c3" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r3c4">Row 3, column 4, 4 Across</label>
+                <input id="r3c4" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r3c5">Row 3, column 5, 4 Across and 3 Down</label>
+                <input id="r3c5" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell blocked" aria-hidden="true"></div>
+              <div class="cell blocked" aria-hidden="true"></div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r4c3">Row 4, column 3, 2 Down</label>
+                <input id="r4c3" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell blocked" aria-hidden="true"></div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r4c5">Row 4, column 5, 3 Down</label>
+                <input id="r4c5" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <span class="number">5</span>
+                <label class="visually-hidden" for="r5c1">Row 5, column 1, 5 Across</label>
+                <input id="r5c1" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r5c2">Row 5, column 2, 5 Across</label>
+                <input id="r5c2" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r5c3">Row 5, column 3, 5 Across and 2 Down</label>
+                <input id="r5c3" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r5c4">Row 5, column 4, 5 Across</label>
+                <input id="r5c4" type="text" maxlength="1" autocomplete="off" />
+              </div>
+              <div class="cell open">
+                <label class="visually-hidden" for="r5c5">Row 5, column 5, 5 Across and 3 Down</label>
+                <input id="r5c5" type="text" maxlength="1" autocomplete="off" />
+              </div>
+            </div>
+
+            <details>
+              <summary>Reveal the solution</summary>
+              <div class="solution">
+                <p>Here is the finished grid:</p>
+                <div class="solution-board" role="img" aria-label="Solved crossword: BEACH, STAIR, and DANCE across; BUS, AGAIN, and HORSE down">
+                  <span class="solution-letter">B</span>
+                  <span class="solution-letter">E</span>
+                  <span class="solution-letter">A</span>
+                  <span class="solution-letter">C</span>
+                  <span class="solution-letter">H</span>
+                  <span class="solution-letter">U</span>
+                  <span class="solution-block"></span>
+                  <span class="solution-letter">G</span>
+                  <span class="solution-block"></span>
+                  <span class="solution-letter">O</span>
+                  <span class="solution-letter">S</span>
+                  <span class="solution-letter">T</span>
+                  <span class="solution-letter">A</span>
+                  <span class="solution-letter">I</span>
+                  <span class="solution-letter">R</span>
+                  <span class="solution-block"></span>
+                  <span class="solution-block"></span>
+                  <span class="solution-letter">I</span>
+                  <span class="solution-block"></span>
+                  <span class="solution-letter">S</span>
+                  <span class="solution-letter">D</span>
+                  <span class="solution-letter">A</span>
+                  <span class="solution-letter">N</span>
+                  <span class="solution-letter">C</span>
+                  <span class="solution-letter">E</span>
+                </div>
+              </div>
+            </details>
+          </div>
+
+          <aside class="game-panel">
+            <h2>Clues</h2>
+            <div class="clues">
+              <div>
+                <h3>Across</h3>
+                <ol>
+                  <li value="1">A sandy place by the sea.</li>
+                  <li value="4">One step on a staircase.</li>
+                  <li value="5">Move your body to music.</li>
+                </ol>
+              </div>
+              <div>
+                <h3>Down</h3>
+                <ol>
+                  <li value="1">Big vehicle that takes you to school.</li>
+                  <li value="2">One more time.</li>
+                  <li value="3">An animal you can ride.</li>
+                </ol>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Have a nice day~~</p>
+    </footer>
+  </body>
+</html>

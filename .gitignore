@@ -1,0 +1,3 @@
+# Ignore generated files and local environment settings
+.DS_Store
+.venv/
